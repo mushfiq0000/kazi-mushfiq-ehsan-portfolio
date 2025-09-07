@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" id="htmlTag">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kazi Mushfiq Ehsan | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300"
+  >
+    <!-- Header -->
+    <header
+      class="fixed top-0 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur border-b border-gray-200 dark:border-gray-700 z-50"
+    >
+      <div
+        class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <h1 class="font-bold text-lg">Kazi Mushfiq Ehsan</h1>
+        <nav class="space-x-6 hidden sm:block">
+          <a href="#about" class="hover:text-blue-500">About</a>
+          <a href="#skills" class="hover:text-blue-500">Skills</a>
+          <a href="#projects" class="hover:text-blue-500">Projects</a>
+          <a href="#contact" class="hover:text-blue-500">Contact</a>
+        </nav>
+        <button
+          id="darkToggle"
+          class="p-2 rounded-full border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
+        >
+          🌙
+        </button>
+        <script>
+          tailwind.config = {
+            darkMode: "class",
+          };
+        </script>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="about" class="pt-28 pb-16 text-center">
+      <h2 class="text-3xl font-bold">Hi, I'm Kazi Mushfiq Ehsan</h2>
+      <p class="mt-3 text-lg text-gray-600 dark:text-gray-300">
+        Web Developer (HTML5, CSS3, JavaScript ES6, Tailwind)
+      </p>
+      <p class="mt-4 max-w-2xl mx-auto text-gray-700 dark:text-gray-400">
+        Enthusiastic and detail-oriented individual with a strong foundation in
+        web development. Eager to contribute to dynamic projects and grow
+        professionally in a tech-driven environment.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-16 bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-bold mb-8 text-center">Skills</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <!-- Technical Skills -->
+          <div
+            class="p-6 rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 shadow"
+          >
+            <h3 class="font-semibold mb-4">Technical Skills</h3>
+            <ul class="flex flex-wrap gap-2">
+              <li class="px-3 py-1 rounded-full border">HTML5</li>
+              <li class="px-3 py-1 rounded-full border">CSS3</li>
+              <li class="px-3 py-1 rounded-full border">JavaScript (ES6)</li>
+              <li class="px-3 py-1 rounded-full border">Tailwind CSS</li>
+            </ul>
+          </div>
+          <!-- Soft Skills -->
+          <div
+            class="p-6 rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 shadow"
+          >
+            <h3 class="font-semibold mb-4">Soft Skills</h3>
+            <ul class="flex flex-wrap gap-2">
+              <li class="px-3 py-1 rounded-full border">Problem-Solving</li>
+              <li class="px-3 py-1 rounded-full border">Teamwork</li>
+              <li class="px-3 py-1 rounded-full border">Adaptability</li>
+              <li class="px-3 py-1 rounded-full border">Communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-16">
+      <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-2xl font-bold mb-8 text-center">Projects</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Project 1 -->
+          <div
+            class="border rounded-2xl overflow-hidden shadow bg-white dark:bg-gray-900 dark:border-gray-700"
+          >
+            <img
+              src="./assets/1.PNG"
+              alt="Project 1"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold">English Janala Resources Project</h3>
+              <a
+                href="https://mushfiq0000.github.io/english-janala-resources-project/"
+                target="_blank"
+                class="text-blue-500 hover:underline text-sm"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div
+            class="border rounded-2xl overflow-hidden shadow bg-white dark:bg-gray-900 dark:border-gray-700"
+          >
+            <img
+              src="./assets/2.PNG"
+              alt="Project 2"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold">Emergency Hotline BD</h3>
+              <a
+                href="https://mushfiq0000.github.io/Emergency-Hotline-BD/"
+                target="_blank"
+                class="text-blue-500 hover:underline text-sm"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div
+            class="border rounded-2xl overflow-hidden shadow bg-white dark:bg-gray-900 dark:border-gray-700"
+          >
+            <img
+              src="./assets/3.PNG"
+              alt="Project 3"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="font-semibold">Payoo Mobile App</h3>
+              <a
+                href="https://mushfiq0000.github.io/payoo-mobile-app/"
+                target="_blank"
+                class="text-blue-500 hover:underline text-sm"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-50 dark:bg-gray-800">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h2 class="text-2xl font-bold mb-6">Contact</h2>
+        <p class="mb-6 text-gray-600 dark:text-gray-300">
+          Feel free to reach out for collaborations or opportunities.
+        </p>
+        <div class="space-y-3 text-gray-700 dark:text-gray-300">
+          <p>
+            📧
+            <a
+              href="mailto:kazi.mushfiq.ehsan@gmail.com"
+              class="text-blue-500 hover:underline"
+              >kazi.mushfiq.ehsan@gmail.com</a
+            >
+          </p>
+          <p>📱 +8801746508362</p>
+          <p>
+            💻
+            <a
+              href="https://github.com/mushfiq0000"
+              target="_blank"
+              class="text-blue-500 hover:underline"
+              >GitHub</a
+            >
+          </p>
+          <p>
+            🔗
+            <a
+              href="https://www.linkedin.com/in/kazi-mushfiq-ehsan-031226329/"
+              target="_blank"
+              class="text-blue-500 hover:underline"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="py-6 text-center border-t border-gray-200 dark:border-gray-700"
+    >
+      <p class="text-sm text-gray-600 dark:text-gray-400">
+        © 2025 Kazi Mushfiq Ehsan. All rights reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
