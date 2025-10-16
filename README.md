@@ -1,6 +1,6 @@
-# 🌐 Personal Portfolio - Mushfiq
+# 🌐 Portfolio - Mushfiq
 
-Welcome to my personal portfolio website!  
+Welcome to my portfolio website!  
 This is a modern, responsive portfolio built using **HTML**, **Tailwind CSS**, and **JavaScript** — designed to showcase my web development projects, skills, and achievements in a clean and interactive way.
 
 ---
